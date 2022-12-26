@@ -1,0 +1,20 @@
+run function repeatString
+repeatString takes 2 arguments
+function repeatString(string, num)
+function repeatString('Hi', 2)
+It will return, "Hi""Hi"
+
+What do I need?
+create function repeatString(string, num) {
+    this body will do what?
+        take the string and repeat it based on the num
+        how will I determine how many times it repeats?
+            num = times it is repeated
+            let i = 0 (starts), i++ (infinitely repeats until we tell function to stop)
+            condition is num
+            for (i = 0, i < num, i++)
+        ok. now what?
+        I have what repeating? i.
+        i is what?     
+}
+
