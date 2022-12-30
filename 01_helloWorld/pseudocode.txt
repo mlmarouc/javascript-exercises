@@ -18,3 +18,93 @@ create function repeatString(string, num) {
         i is what?     
 }
 
+Reverse string
+reverseString('hello there') // returns 'ereht olleh'
+
+take string
+add new variable that takes string in array?
+reverse it?
+then reverse the process
+return text
+
+const reverseString = function(string) {
+    let length = string.length;
+    //console.log(string.length)
+    let negative = 0 - string.length;
+    //console.log(negative)
+    let part = string.slice(negative);
+    return part 
+};
+
+console.log(reverseString('happy'));
+
+
+
+Remove from array
+const removeFromArray = function(...args) {
+};
+console.log(removeFromArray([1, 2, 3, 4], 3)); 
+// should remove 3 and return [1,2,4]
+have a function that shows array and position to be removed
+make it random?
+
+
+
+
+*make sure you pay attention to the function parameters
+*create a variable to hold the final sum
+loop through the given numbers (link)
+on each iteration add the number to the sum
+return the sum after finishing the loop
+
+const sumAll = function(x, y) {
+    let total = 0;
+    for (x = 0; x > y; x++) {
+      total += x;
+    }
+    return total;
+}
+console.log(sumAll(1, 4));
+
+
+
+const sumAll = function(...theArgs) {
+    let total = 0;
+    for (const arg of theArgs) {
+      total += arg;
+    }
+    return total;
+}
+console.log(sumAll(1, 4));
+
+
+
+
+Leap Years. Write a program which will ask for a starting year and an ending year, and then puts all of the leap years between them (and including them, if they are also leap years). Leap years are years divisible by four (like 1984 and 2004). However, years divisible by 100 are not leap years (such as 1800 and 1900) unless they are divisible by 400 (like 1600 and 2000, which were in fact leap years). (Yes, it's all pretty confusing, but not as confusing as having July in the middle of the winter, which is what would eventually happen.)
+
+function input year ()
+ if(year % 400 == 0 || year % 4 == 0)
+ return 'It is a leap year.'
+    Else
+    return 'It is not a leap year.
+
+const leapYears = function(year) {
+        if(year === )
+        else
+        return
+    };
+
+
+
+
+
+    const convertToCelsius = function(fah) {
+        
+};
+(degree in F − 32) × 5/9
+
+
+const convertToFahrenheit = function(cel) {
+};
+
+(degree in C × 9/5) + 32
